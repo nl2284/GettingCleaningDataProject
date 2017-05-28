@@ -29,12 +29,17 @@ In the dataset “tidy_set”, for each record it is provided:
 All variables in "tidy_set"
 ======================================
 "observationFrom”: identifies which set the observation comes from
+	
 	class: factor, levels: 2 
 	level 1: train-the observation comes from the train set
 	level 2: test—the observation comes from the test set
+	
 "subject”-An identifier of the subject who carried out the experiment.
+	
 	class: integer
+	
 "activityType”-An identifier of the activity performed.
+	
 	class: factor, levels: 6
         level 1: WALKING
         level 2: WALKING_UPSTAIRS
@@ -42,7 +47,8 @@ All variables in "tidy_set"
         level 4: SITTING
         level 5: STANDING
         level 6: LAYING
-
+	
+    All measurement variables:
 "timeBodyAccelerometerMeanX" "numeric"
 "timeBodyAccelerometerMeanY" "numeric"
 "timeBodyAccelerometerMeanZ" "numeric"
