@@ -26,7 +26,7 @@ In the dataset “tidy_set”, for each record it is provided:
 - The activity type
 - Average of the mean and standard deviation measurements for each activity and each subject.
 
-All variables in "tidy_set"
+Variables in "tidy_set"
 ======================================
 "observationFrom”: identifies which set the observation comes from
 	
@@ -48,7 +48,6 @@ All variables in "tidy_set"
         level 5: STANDING
         level 6: LAYING
 	
-    All measurement variables:
 "timeBodyAccelerometerMeanX" "numeric"
 "timeBodyAccelerometerMeanY" "numeric"
 "timeBodyAccelerometerMeanZ" "numeric"
